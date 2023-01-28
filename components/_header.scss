@@ -1,0 +1,38 @@
+
+.main__header{
+    background: url(../img/hcof.png) center/cover no-repeat;
+}
+.for__your__pleasure__header {
+    background: url(../img/cof-backk.png) center/cover no-repeat;
+}
+.ourcofee__header {
+    background: url(../img/backcof.png) center/cover no-repeat;
+}
+.ourcofee__2__header {
+    background: url(../img/cof-backk.png) center/cover no-repeat;
+}
+header {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 200px;
+}
+
+.h-top-2 {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 60px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    column-gap: 40px;
+}
+.h-top-2 li {
+    font-size: 20px;
+}
+.h-mid-2 {
+    font-size: 40px;
+    text-align: center;
+}
+    

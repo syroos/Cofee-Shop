@@ -1,0 +1,147 @@
+
+
+.h-top-2 {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 60px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    column-gap: 40px;
+}
+.h-top-2 li {
+    font-size: 20px;
+}
+.h-mid-2 {
+    font-size: 40px;
+    text-align: center;
+}
+.sec1-2 {
+    padding-top: 80px;
+}
+.sec1-2-box {
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+    align-items: center;
+    padding-bottom: 57px;
+}
+.not-pretty {
+    width: 50%;
+    text-align: center;
+}
+.line {
+    text-align: center;
+}
+.sec2-2 {
+    background: white;
+}
+.sec1-2 {
+    padding-bottom: 65px;
+}
+.sec2-2-top-left {
+    display: flex;
+    column-gap: 20px;
+}
+.sec2-2-top-left input {
+    text-align: center;
+}
+.sec2-2-top-left input::placeholder {
+    text-align: center;
+}
+.is2 {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    outline: none;
+}
+.sec2-2-top {
+    display: flex;
+    column-gap: 90px;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+.sec2-2-top-right {
+    display: flex;
+    column-gap: 35px;
+}
+.sec2-2-top-right ul {
+    display: flex;
+    column-gap: 8px;
+}
+.sec2-2-top-right li {
+    width: 75px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.boxes-cof {
+    display: flex;
+    column-gap: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.cof-mid {
+    background: #FFFFFFA6;
+    text-align: center;
+    width: 220px;
+    height: 240px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.cof-mid img {
+    margin: 20px 0 15px;
+}
+.cof-mid p {
+    margin-left: 131px;
+    margin-top: 10px;
+}
+.f-top {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+footer {
+    padding: 30px 0 20px;
+}
+.f-bot {
+    display: flex;
+    justify-content: center;
+}
+main {
+    padding-bottom: 60px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+}
+.boxes-cof {
+    margin-bottom: 30px;
+}
+.boxes-cof h4 {
+    margin-left: 131px;
+}
+.tabs__content {
+    display: none; /* по умолчанию прячем все блоки */
+}
+.tabs__content.active {
+    display: block; /* по умолчанию показываем нужный блок */
+}
+.tabs__caption li:hover {
+    background: coral;
+    color: aqua;
+    cursor: pointer;
+}
+
+
+

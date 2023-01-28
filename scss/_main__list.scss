@@ -1,0 +1,115 @@
+
+
+.h-top {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 110px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    column-gap: 40px;
+}
+.h-top li {
+    font-size: 20px;
+}
+
+.h-mid {
+    text-align: center;
+}
+h1 {
+    font-size: 45px;
+}
+.h-mid img {
+    margin-top: 20px;
+    padding-bottom: 35px;
+}
+.h-mid h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.h-mid button {
+    background: none;
+    color: white;
+    width: 120px;
+    height: 30px;
+    border: white solid 2px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.sec1-box {
+    text-align: center;
+}
+.sec1 {
+    padding: 80px 0 100px;
+}
+.sec1-top {
+    text-align: center;
+}
+.sec1-top img {
+    padding: 20px 0 40px;
+}
+.pp {
+    text-align: center;
+    margin: 0 300px 0;
+}
+.sec2 {
+    background: url("../img/begevyi.png") center/cover no-repeat;
+    padding-top: 80px;
+    padding-bottom: 110px;
+}
+.sec2-box h2 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.boxes {
+    display: flex;
+    column-gap: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.muka {
+    background: #FFFFFFA6;
+    text-align: center;
+    width: 220px;
+    height: 240px;
+}
+.muka img {
+    margin: 20px 0 15px;
+}
+.muka p {
+    margin-left: 131px;
+    margin-top: 10px;
+}
+.f-top {
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     padding-bottom: 30px;
+ }
+footer {
+    padding: 30px 0 20px;
+}
+.f-bot {
+    display: flex;
+    justify-content: center;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+.h-top a {
+    transition: cubic-bezier(1,0,0,0) 2s;
+    
+}
+.h-top a:hover {
+    color: palevioletred;
+    transition: cubic-bezier(0,0,0,1) 2s;
+
+}
+footer a {
+    color: black;
+    text-decoration: none;
+}
